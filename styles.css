@@ -11,12 +11,28 @@ img {
     margin-right: auto;
     width: 50%;
 }
+#main{
+    color: black;
+    font-size: large;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 0px;
+    display: block;
+}
 
 .header{
     background-color: antiquewhite;
-    display: block;
-    padding: 20;
+    padding: 20px;
+    margin: 0 auto;
     overflow: hidden;
+}
+
+.header a {
+    color: black;
+    display:inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .header h1 {
@@ -25,5 +41,6 @@ img {
     text-align: center;
     margin-top: auto;
     margin-bottom: auto;
-    line-height: 25px;
+    display:inline-block;
+    padding-left: 80px;
 }
